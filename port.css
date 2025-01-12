@@ -165,3 +165,79 @@ ul li a {
 ul li a:hover {
     text-decoration: underline;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem; /* Smaller font for mobile */
+    }
+
+    header p {
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        flex-wrap: wrap; /* Wrap nav links on smaller screens */
+    }
+
+    nav ul li {
+        margin: 10px; /* Add spacing between nav items */
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    section h2 {
+        font-size: 2rem; /* Smaller section titles */
+    }
+
+    .skills-box, .project-box {
+        gap: 15px; /* Smaller gaps between boxes */
+    }
+
+    .skill, .project {
+        width: 100%; /* Full width for skills/projects on mobile */
+    }
+
+    #about .container {
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2rem; /* Even smaller font for very small devices */
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem; /* Adjust nav links size */
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    .skills-box, .project-box {
+        gap: 10px;
+    }
+
+    .skill, .project {
+        padding: 15px;
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.7rem;
+    }
+}
+
